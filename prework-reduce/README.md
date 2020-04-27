@@ -99,7 +99,7 @@ highest_page_count(library)
 ---
 ## BONUS Deliverables
 
-* `recommended_books`: `recommended_books` takes in your library and number as arguments, and outputs an array of strings. The number of strings in the array should be equal to the number passed in as an argument. The strings are about books you are recommending from your entire library, organized by fewest page count to longest page count. e.g., If the number argument is 4, you should output the 4 shortest books.
+* `recommended_books`: `recommended_books` takes in your library and a number in as arguments, and outputs an array of strings. The number of strings in the array should be equal to the number argument. The strings are about books you are recommending from your entire library, organized by fewest page count to longest page count. e.g., If the number argument is 4, you should output the 4 shortest books.
 
 Example
 ```ruby
@@ -108,7 +108,7 @@ recommended_books(library, 3)
 ["You should read Animal Farm by George Orwell; it's only 112 pages long!", "You should read Circe by Madeline Miller; it's only 385 pages long!", "You should War and Peace by Leo Tolstoy; it's only 1225 pages long!"]
 ```
 ---
-* `recommended_books_by_genre`: `recommended_books_by_genre` takes in your library and two strings in as arguments, and outputs an array of strings. The first string should be a genre that is preferred, and the second string should be a genre that is not preferred. The array should a list of recommendations, listing the preferred genres first, followed by the the other books in your library. The books with the genres that are not preferred should not be in the array.
+* `recommended_books_by_genre`: `recommended_books_by_genre` takes in your library and two strings in as arguments, and outputs an array of strings. The first string argument should be a genre that is preferred, and the second string argeument should be a genre that is not preferred. The array should a list of recommendations, listing the preferred genres first, followed by the the other books in your library. The books with the genres that are not preferred should not be in the array.
 
 Example
 ```ruby
