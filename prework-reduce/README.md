@@ -4,6 +4,8 @@ You have a massive collection of books; many you've read, many you have not! You
 
 Now you have your collection, minified to an array called library. This array contains hashes that represent each book, keeping track of the book's title, author, genres, publication year, number of pages, and whether or not you've completed reading the book. Though all this data is great, it's unwieldy, and hard to understand or navigate through. You give yourself another challenge: write some ruby methods to interpret the data! Here are the methods you have in mind...
 
+#### Note: Don't forget to `bundle install` before running code. There is no rspec, so learn will not work. Solve the deliverables by testing each one!
+
 ## Deliverables
 
 * `all_pages`: `all_pages` takes in your library as an argument, and outputs how many pages are in all of your books in your library! (Bonus: try to complete this method using the `.reduce` method)
