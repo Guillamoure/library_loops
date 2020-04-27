@@ -9,6 +9,7 @@ Now you have your collection, minified to an array called library. This array co
 `all_pages`: `all_pages` takes in your library as an argument, and outputs how many pages are in all of your books in your library! (Bonus: try to complete this method using the `.reduce` method)
 
 Example
+
 `all_pages(library)`
 _12406_
 
