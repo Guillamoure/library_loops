@@ -6,7 +6,7 @@ Now you have your collection, minified to an array called library. This array co
 
 ## Deliverables
 
-*`all_pages`: `all_pages` takes in your library as an argument, and outputs how many pages are in all of your books in your library! (Bonus: try to complete this method using the `.reduce` method)
+* `all_pages`: `all_pages` takes in your library as an argument, and outputs how many pages are in all of your books in your library! (Bonus: try to complete this method using the `.reduce` method)
 
 Example
 
@@ -15,7 +15,7 @@ Example
 _12406_
 
 
-*`all_pages_read`: `all_pages_read` takes in your library as an argument, and outputs how many pages are in all the books that you've read! (Bonus: try to complete this method using the `.reduce` method)
+* `all_pages_read`: `all_pages_read` takes in your library as an argument, and outputs how many pages are in all the books that you've read! (Bonus: try to complete this method using the `.reduce` method)
 
 Example
 
@@ -24,7 +24,7 @@ Example
 _781_
 
 
-*`all_genres`: `all_genres` takes in your library as an argument, and outputs an array. This array should contain all of the genres that you have in your library. Try to make it display only unique strings; no duplicates!
+* `all_genres`: `all_genres` takes in your library as an argument, and outputs an array. This array should contain all of the genres that you have in your library. Try to make it display only unique strings; no duplicates!
 
 Example
 
@@ -33,7 +33,7 @@ Example
 _["Fantasy", "Horror", "Science Fiction"]_
 
 
-*`num_books_read`: `num_books_read` takes in your library as an argument, and outputs an array of all of the books that you have completed.
+* `num_books_read`: `num_books_read` takes in your library as an argument, and outputs an array of all of the books that you have completed.
 
 Example
 
@@ -42,7 +42,7 @@ Example
 _[{title: "Dracula", author: "Bram Stoker", genres: ["Horror", "Gothic"], pages: 418, publication_year: 1897, completed: true}, {title: "Mastering the Art of French Cooking", author: "Simone Beck, Louisette Bertholie, Julia Child", genres: ["Cooking", "Non-Fiction"], pages: 726, publication_year: 1961, completed: true}]_
 
 
-*`completed_books_detail`: `completed_books_detail` takes in your library as an argument, and outputs a string that lists how many books you've read, and how many pages you've read.
+* `completed_books_detail`: `completed_books_detail` takes in your library as an argument, and outputs a string that lists how many books you've read, and how many pages you've read.
 
 Example
 
@@ -51,7 +51,7 @@ Example
 _"I've read 5 books, totaling at 1074 pages."_
 
 
-*`books_in_library`: `books_in_library` takes in your library as an argument, and outputs an array of strings, where each string is each book of your library, but only their name and author
+* `books_in_library`: `books_in_library` takes in your library as an argument, and outputs an array of strings, where each string is each book of your library, but only their name and author
 
 Example
 
@@ -60,7 +60,7 @@ Example
 _["Inferno by Dante Alighieri", "Mastering the Art of French Cooking by Simone Beck, Louisette Bertholie, Julia Child", "Animal Farm by George Orwell"]_
 
 
-*`books_by_year`: `books_by_year` takes in your library as an argument, and outputs an array of strings (just like the previous method). However, the books should be ordered by what year they were published.
+* `books_by_year`: `books_by_year` takes in your library as an argument, and outputs an array of strings (just like the previous method). However, the books should be ordered by what year they were published.
 
 Example
 
@@ -69,7 +69,7 @@ Example
 _["Inferno by Dante Alighieri", "Animal Farm by George Orwell", "Mastering the Art of French Cooking by Simone Beck, Louisette Bertholie, Julia Child"]_
 
 
-*`books_with_subtitles`: `books_with_subtitles` takes in your library as an argument, and outputs an array of book hashes that have titles that have a subtitle.
+* `books_with_subtitles`: `books_with_subtitles` takes in your library as an argument, and outputs an array of book hashes that have titles that have a subtitle.
 
 Example
 
@@ -78,7 +78,7 @@ Example
 _[{title: "Frankenstein; or, the Modern Prometheus", author: "Mary Shelley", genres: ["Gothic", "Horror", "Science Fiction"], pages: 280, publication_year: 1818, completed: true}]_
 
 
-*`books_primary_title`: `books_primary_title` takes in your library as an argument, and outputs an array of book title strings. If the book title has a subtitle, only output the primary title.
+* `books_primary_title`: `books_primary_title` takes in your library as an argument, and outputs an array of book title strings. If the book title has a subtitle, only output the primary title.
 
 Example
 
@@ -87,7 +87,7 @@ Example
 _["Dracula", "Frankenstein", "Circe", "Animal Farm"]_
 
 
-*`highest_page_count`: `highest_page_count` takes in your library as an argument, and outputs the longest book. (Bonus: try to complete this method using the `.reduce` method)
+* `highest_page_count`: `highest_page_count` takes in your library as an argument, and outputs the longest book. (Bonus: try to complete this method using the `.reduce` method)
 
 Example
 
@@ -99,7 +99,7 @@ _{title: "War and Peace", author: "Leo Tolstoy", genres: ["Historical Fiction"],
 
 BONUS Deliverables
 
-*`recommended_books`: `recommended_books` takes in your library and number as arguments, and outputs an array of strings. The number of strings in the array should be equal to the number passed in as an argument. The strings are about books you are recommending from your entire library, organized by fewest page count to longest page count. e.g., If the number argument is 4, you should output the 4 shortest books.
+* `recommended_books`: `recommended_books` takes in your library and number as arguments, and outputs an array of strings. The number of strings in the array should be equal to the number passed in as an argument. The strings are about books you are recommending from your entire library, organized by fewest page count to longest page count. e.g., If the number argument is 4, you should output the 4 shortest books.
 
 Example
 
@@ -108,7 +108,7 @@ Example
 _["You should read Animal Farm by George Orwell; it's only 112 pages long!", "You should read Circe by Madeline Miller; it's only 385 pages long!", "You should War and Peace by Leo Tolstoy; it's only 1225 pages long!"]_
 
 
-*`recommended_books_by_genre`: `recommended_books_by_genre` takes in your library and two strings in as arguments, and outputs an array of strings. The first string should be a genre that is preferred, and the second string should be a genre that is not preferred. The array should a list of recommendations, listing the preferred genres first, followed by the the other books in your library. The books with the genres that are not preferred should not be in the array.
+* `recommended_books_by_genre`: `recommended_books_by_genre` takes in your library and two strings in as arguments, and outputs an array of strings. The first string should be a genre that is preferred, and the second string should be a genre that is not preferred. The array should a list of recommendations, listing the preferred genres first, followed by the the other books in your library. The books with the genres that are not preferred should not be in the array.
 
 Example
 
