@@ -9,56 +9,56 @@ Now you have your collection, minified to an array called library. This array co
 `all_pages`: `all_pages` takes in your library as an argument, and outputs how many pages are in all of your books in your library! (Bonus: try to complete this method using the `.reduce` method)
 
 Example
-`<all_pages(library)>`
+`all_pages(library)`
 _12406_
 
 `all_pages_read`: `all_pages_read` takes in your library as an argument, and outputs how many pages are in all the books that you've read! (Bonus: try to complete this method using the `.reduce` method)
 
 Example
->`all_pages_read(library)`
-> 781
+`all_pages_read(library)`
+_781_
 
 `all_genres`: `all_genres` takes in your library as an argument, and outputs an array. This array should contain all of the genres that you have in your library. Try to make it display only unique strings; no duplicates!
 
 Example
 `all_genres(library)`
-# => ["Fantasy", "Horror", "Science Fiction"]
+_["Fantasy", "Horror", "Science Fiction"]_
 
 `num_books_read`: `num_books_read` takes in your library as an argument, and outputs an array of all of the books that you have completed.
 
 Example
 `num_books_read(library)`
-# => [{title: "Dracula", author: "Bram Stoker", genres: ["Horror", "Gothic"], pages: 418, publication_year: 1897, completed: true}, {title: "Mastering the Art of French Cooking", author: "Simone Beck, Louisette Bertholie, Julia Child", genres: ["Cooking", "Non-Fiction"], pages: 726, publication_year: 1961, completed: true}]
+_[{title: "Dracula", author: "Bram Stoker", genres: ["Horror", "Gothic"], pages: 418, publication_year: 1897, completed: true}, {title: "Mastering the Art of French Cooking", author: "Simone Beck, Louisette Bertholie, Julia Child", genres: ["Cooking", "Non-Fiction"], pages: 726, publication_year: 1961, completed: true}]_
 
 `completed_books_detail`: `completed_books_detail` takes in your library as an argument, and outputs a string that lists how many books you've read, and how many pages you've read.
 
 Example
 `completed_books_detail(library)`
-# => "I've read 5 books, totaling at 1074 pages."
+_"I've read 5 books, totaling at 1074 pages."_
 
 `books_in_library`: `books_in_library` takes in your library as an argument, and outputs an array of strings, where each string is each book of your library, but only their name and author
 
 Example
 `books_in_library(library)`
-# => ["Inferno by Dante Alighieri", "Mastering the Art of French Cooking by Simone Beck, Louisette Bertholie, Julia Child", "Animal Farm by George Orwell"]
+_["Inferno by Dante Alighieri", "Mastering the Art of French Cooking by Simone Beck, Louisette Bertholie, Julia Child", "Animal Farm by George Orwell"]_
 
 `books_by_year`: `books_by_year` takes in your library as an argument, and outputs an array of strings (just like the previous method). However, the books should be ordered by what year they were published.
 
 Example
 `books_by_year(library)`
-# => ["Inferno by Dante Alighieri", "Animal Farm by George Orwell", "Mastering the Art of French Cooking by Simone Beck, Louisette Bertholie, Julia Child"]
+_["Inferno by Dante Alighieri", "Animal Farm by George Orwell", "Mastering the Art of French Cooking by Simone Beck, Louisette Bertholie, Julia Child"]_
 
 `books_with_subtitles`: `books_with_subtitles` takes in your library as an argument, and outputs an array of book hashes that have titles that have a subtitle.
 
 Example
 `books_with_subtitles(library)`
-# => [{title: "Frankenstein; or, the Modern Prometheus", author: "Mary Shelley", genres: ["Gothic", "Horror", "Science Fiction"], pages: 280, publication_year: 1818, completed: true}]
+_[{title: "Frankenstein; or, the Modern Prometheus", author: "Mary Shelley", genres: ["Gothic", "Horror", "Science Fiction"], pages: 280, publication_year: 1818, completed: true}]_
 
 `books_primary_title`: `books_primary_title` takes in your library as an argument, and outputs an array of book title strings. If the book title has a subtitle, only output the primary title.
 
 Example
 `books_primary_title(library)`
-# => ["Dracula", "Frankenstein", "Circe", "Animal Farm"]
+_["Dracula", "Frankenstein", "Circe", "Animal Farm"]_
 
 `highest_page_count`: `highest_page_count` takes in your library as an argument, and outputs the longest book. (Bonus: try to complete this method using the `.reduce method)
 
