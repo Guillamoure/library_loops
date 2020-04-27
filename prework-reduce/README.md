@@ -1,15 +1,15 @@
-#Welcome to Library Loops!
+# Welcome to Library Loops!
 
 You have a massive collection of books; many you've read, many you have not! You've read so many, it's been hard to keep track of the information about these books. In order to keep track of all of your books, you've decided to catalogue them all, keeping track of specific data about each book.
 
 Now you have your collection, minified to an array called library. This array contains hashes that represent each book, keeping track of the book's title, author, genres, publication year, number of pages, and whether or not you've completed reading the book. Though all this data is great, it's unwieldy, and hard to understand or navigate through. You give yourself another challenge: write some ruby methods to interpret the data! Here are the methods you have in mind...
 
-##Deliverables
+## Deliverables
 
 `all_pages`: `all_pages` takes in your library as an argument, and outputs how many pages are in all of your books in your library! (Bonus: try to complete this method using the `.reduce` method)
 
 Example
-`all_pages(library)`
+>`all_pages(library)`
 > 12406
 
 `all_pages_read`: `all_pages_read` takes in your library as an argument, and outputs how many pages are in all the books that you've read! (Bonus: try to complete this method using the `.reduce` method)
